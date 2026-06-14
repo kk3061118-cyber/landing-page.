@@ -1,10 +1,10 @@
 # landing-page.
-<!DOCTYPE html>//kk3061118@gmail.com
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
 
-    <!-- PASTE_YOUR_SECRET_KEY_HERE -->
+   //kk3061118@gmail.com
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunshine Summer Camp 2026</title>
