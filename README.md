@@ -2,175 +2,212 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sunshine Summer Camp 2026</title>
 
-   //kk3061118@gmail.com
+//kk3061118@gmail.com
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sunshine Summer Camp 2026</title>
+html{
+    scroll-behavior:smooth;
+}
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-        }
+body{
+    font-family:Arial, sans-serif;
+    background:#f4f7fb;
+    color:#333;
+    line-height:1.6;
+}
 
-        body{
-            font-family:Arial, sans-serif;
-            background:#f4f7fb;
-            color:#333;
-            line-height:1.6;
-        }
+header{
+    background:linear-gradient(135deg,#ff9800,#ff5722);
+    color:white;
+    text-align:center;
+    padding:90px 20px;
+}
 
-        header{
-            background:linear-gradient(135deg,#ff9800,#ff5722);
-            color:white;
-            text-align:center;
-            padding:70px 20px;
-        }
+header h1{
+    font-size:3.5rem;
+    margin-bottom:15px;
+}
 
-        header h1{
-            font-size:3rem;
-            margin-bottom:10px;
-        }
+header p{
+    font-size:1.3rem;
+    margin-bottom:25px;
+}
 
-        header p{
-            font-size:1.2rem;
-            margin-bottom:20px;
-        }
+.btn{
+    display:inline-block;
+    background:white;
+    color:#ff5722;
+    text-decoration:none;
+    padding:14px 30px;
+    border-radius:30px;
+    font-weight:bold;
+    margin-bottom:25px;
+    transition:0.3s;
+}
 
-        nav a{
-            color:white;
-            text-decoration:none;
-            margin:0 12px;
-            font-weight:bold;
-        }
+.btn:hover{
+    transform:translateY(-3px);
+}
 
-        nav a:hover{
-            text-decoration:underline;
-        }
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    padding:10px 18px;
+    border-radius:20px;
+    transition:0.3s;
+}
 
-        section{
-            width:90%;
-            max-width:1100px;
-            margin:30px auto;
-            background:white;
-            padding:30px;
-            border-radius:15px;
-            box-shadow:0 5px 15px rgba(0,0,0,0.1);
-        }
+nav a:hover{
+    background:white;
+    color:#ff5722;
+}
 
-        h2{
-            text-align:center;
-            color:#ff5722;
-            margin-bottom:20px;
-        }
+section{
+    width:90%;
+    max-width:1100px;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
 
-        img{
-            width:100%;
-            max-width:700px;
-            display:block;
-            margin:20px auto;
-            border-radius:15px;
-        }
+h2{
+    text-align:center;
+    color:#ff5722;
+    margin-bottom:20px;
+}
 
-        .activities{
-            display:flex;
-            flex-wrap:wrap;
-            gap:20px;
-            justify-content:center;
-        }
+.hero-img{
+    width:100%;
+    max-width:800px;
+    display:block;
+    margin:20px auto;
+    border-radius:15px;
+}
 
-        .card{
-            width:230px;
-            background:#fff7f2;
-            padding:20px;
-            border-radius:12px;
-            text-align:center;
-            box-shadow:0 3px 10px rgba(0,0,0,0.1);
-        }
+.activities{
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
 
-        .card h3{
-            color:#ff5722;
-            margin-bottom:10px;
-        }
+.card{
+    width:230px;
+    background:white;
+    padding:15px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
 
-        table{
-            width:100%;
-            border-collapse:collapse;
-        }
+.card:hover{
+    transform:translateY(-10px);
+}
 
-        th{
-            background:#ff5722;
-            color:white;
-        }
+.card img{
+    width:100%;
+    height:160px;
+    object-fit:cover;
+    border-radius:10px;
+    margin-bottom:10px;
+}
 
-        th,td{
-            border:1px solid #ddd;
-            padding:12px;
-            text-align:center;
-        }
+.card h3{
+    color:#ff5722;
+}
 
-        form{
-            max-width:500px;
-            margin:auto;
-        }
+table{
+    width:100%;
+    border-collapse:collapse;
+}
 
-        input{
-            width:100%;
-            padding:12px;
-            margin-top:5px;
-            margin-bottom:15px;
-            border:1px solid #ccc;
-            border-radius:8px;
-        }
+th{
+    background:#ff5722;
+    color:white;
+}
 
-        input[type="submit"]{
-            background:#ff5722;
-            color:white;
-            border:none;
-            cursor:pointer;
-        }
+th,td{
+    border:1px solid #ddd;
+    padding:12px;
+    text-align:center;
+}
 
-        footer{
-            background:#222;
-            color:white;
-            text-align:center;
-            padding:25px;
-            margin-top:30px;
-        }
+form{
+    max-width:500px;
+    margin:auto;
+}
 
-        footer a{
-            color:#ff9800;
-        }
+input{
+    width:100%;
+    padding:12px;
+    margin:8px 0 15px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
 
-        @media(max-width:768px){
-            header h1{
-                font-size:2rem;
-            }
+input[type="submit"]{
+    background:#ff5722;
+    color:white;
+    border:none;
+    cursor:pointer;
+}
 
-            .activities{
-                flex-direction:column;
-                align-items:center;
-            }
+input[type="submit"]:hover{
+    background:#e64a19;
+}
 
-            .card{
-                width:100%;
-                max-width:350px;
-            }
-        }
-    </style>
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:30px;
+}
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:2rem;
+    }
+
+    .activities{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .card{
+        width:100%;
+        max-width:350px;
+    }
+}
+</style>
 </head>
+
 <body>
 
 <header>
     <h1>☀ Sunshine Summer Camp 2026</h1>
     <p>Learn • Explore • Make New Friends • Create Memories</p>
 
+    <a href="#register" class="btn">Register Now</a>
+
     <nav>
         <a href="#about">About</a>
         <a href="#activities">Activities</a>
+        <a href="#gallery">Gallery</a>
         <a href="#schedule">Schedule</a>
         <a href="#register">Register</a>
     </nav>
@@ -179,7 +216,9 @@
 <section id="about">
     <h2>About Our Camp</h2>
 
-    <img src="assets/image.jpg" alt="Summer Camp">
+    <img class="hero-img"
+    src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?w=1200"
+    alt="Summer Camp">
 
     <p>
         Welcome to <strong>Sunshine Summer Camp</strong>! Our camp offers
@@ -200,23 +239,47 @@
     <div class="activities">
 
         <div class="card">
+            <img src="https://images.unsplash.com/photo-1551632811-561732d1e306?w=500" alt="Hiking">
             <h3>🥾 Hiking</h3>
-            <p>Explore nature and beautiful trails.</p>
+            <p>Explore nature trails and enjoy outdoor adventures.</p>
         </div>
 
         <div class="card">
+            <img src="https://images.unsplash.com/photo-1438029071396-1e831a7fa6d8?w=500" alt="Swimming">
             <h3>🏊 Swimming</h3>
-            <p>Fun water activities with supervision.</p>
+            <p>Safe and exciting water activities for everyone.</p>
         </div>
 
         <div class="card">
+            <img src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?w=500" alt="Arts">
             <h3>🎨 Arts & Crafts</h3>
-            <p>Creative projects and learning experiences.</p>
+            <p>Create amazing projects and express creativity.</p>
         </div>
 
         <div class="card">
+            <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=500" alt="Sports">
             <h3>⚽ Sports</h3>
-            <p>Team games and friendly competitions.</p>
+            <p>Participate in team games and friendly competitions.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="gallery">
+    <h2>Camp Gallery</h2>
+
+    <div class="activities">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600" alt="Camp 1">
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?w=600" alt="Camp 2">
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600" alt="Camp 3">
         </div>
 
     </div>
@@ -276,11 +339,10 @@
 </section>
 
 <footer>
-    <p>&copy; 2026 Sunshine Summer Camp</p>
-    <p>
-        Contact:
-        <a href="mailto:camp@example.com">camp@example.com</a>
-    </p>
+    <h3>Sunshine Summer Camp 2026</h3>
+    <p>Creating unforgettable summer memories.</p>
+    <p>Email: info@sunshinecamp.com | Phone: +91 9876543210</p>
+    <p>&copy; 2026 Sunshine Summer Camp. All Rights Reserved.</p>
 </footer>
 
 </body>
